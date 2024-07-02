@@ -1753,7 +1753,7 @@ defmodule NimbleParsec do
         string("<abc>foo</abc>"),
         string("<abc>")
       ]
-  ß
+
   Since both choices can be activated for an input starting with "abc",
   NimbleParsec guarantees it will return the error from one of them, but
   not which.
